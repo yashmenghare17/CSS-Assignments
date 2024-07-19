@@ -4,6 +4,7 @@ Welcome to **CSS Assignments !**
 We have various assignments are as follow :
 - **Assignment 1**
 - **Assignment 2**
+- **Assignment 3**
 
 ## **Assignment 1** ##
 
