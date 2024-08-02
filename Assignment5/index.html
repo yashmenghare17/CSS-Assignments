@@ -12,23 +12,17 @@
        }
         .header{
             background-color: #ffc266;
-            padding:15px 20px;
+            padding:5px 10px;
         }
         .footer{
             background-color: #ffc266;
             padding:15px 20px;
         }
-        #logo-img{
-            width: 180px;
-            height: 130px;
-            border:2px solid #995c00;
-            border-radius: 35%;
-
-        }
         #logo-text{
             text-align: left;
-            font-size: 22px;
+            font-size: 25px;
             color:#995c00;
+            display: inline-block;
         }
         .card{
             border: 1px solid;
@@ -47,6 +41,7 @@
         }
         .card-img{
             width: 100%;
+            height: 150px;
             border-radius: 10px;
             border: 1px solid #995c00;
         }
@@ -60,6 +55,10 @@
             background-color: black;
             color: white;
         }
+        #logo-img{
+            width: 25px;
+            height: 25px;
+        }
      </style>
      <!-- Internal CSS end -->
 </head>
@@ -67,8 +66,7 @@
     <div>
         <!-- For header start -->
          <div class="header">
-            <img src="./img/cake-logo.jpg" id="logo-img" alt="logo-img"/>
-            <p id="logo-text"> Cake Villa... <span style="font-size: 15px;">(Test mai best)</span></p>
+            <p id="logo-text"><img src="./img/birthday-cake.png" alt="birthday-cake" id="logo-img"/> Cake Villa... <span style="font-size: 15px;">(Test mai best)</span></p>
          </div>
          <!-- for header end -->
            <!-- create a pickup sections start -->
@@ -82,11 +80,19 @@
                 <button class="card-button">Buy Now</button>
             </div>
             <!-- cake 1 end -->
+            <!-- cake 2 -->
+            <div class="card">
+                <img src="./img/plate-cake.jpg" alt="plate-cake" class="card-img"/>
+                <p class="card-text">Plate Cake</p>
+                <p class="card-text">Price : 650/-</p>
+                <button class="card-button">Buy Now</button>
+            </div>
+            <!-- cake 2 end -->
              <!-- cake 2 -->
             <div class="card">
-                <img src="./img/straberry-cake.jpg" alt="straberry-cake" class="card-img"/>
-                <p class="card-text">Straberry Cake</p>
-                <p class="card-text">Price : 450/-</p>
+                <img src="./img/white-forest-cake.jpg" alt="black-forest-cake" class="card-img"/>
+                <p class="card-text">Black Forest Cake</p>
+                <p class="card-text">Price : 850/-</p>
                 <button class="card-button">Buy Now</button>
             </div>
             <!-- cake 2 end -->
