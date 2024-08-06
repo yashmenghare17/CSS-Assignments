@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     <style>
         .container{
             width:400px;
             background-color: #eecd47;
-            height: 400px;
+            height: 430px;
             border-radius: 12px;
             margin:10px auto;
             padding: 25px;
@@ -21,12 +22,62 @@
            border:15px solid black;
            border-radius: 12px;
            background-color:  #A5A391;
+           text-align: right;
+           font-size: 25px;
+           font-family: 'Orbitron', sans-serif;
+        }
+        .btn-container{
+            margin-top:20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 300px;
+            flex-wrap: wrap;
+        }
+        .btn{
+            margin: 7px 7px 20px 7px;
+            padding: 6px;
+            border-radius: 12px;
+            border: 0px;
+            border-radius: 20px;
+            width: 65px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .plus-btn{
+            height: 80px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <input type="text" class="screen" />
+        <div class="btn-container">
+            <button class="btn">OFF</button>
+            <button class="btn">SQRT</button>
+            <button class="btn">%</button>
+            <button class="btn">AC</button>
+            <button class="btn">C</button>
+            <button class="btn">M+</button>
+            <button class="btn">7</button>
+            <button class="btn">4</button>
+            <button class="btn">1</button>
+            <button class="btn">=</button>
+            <button class="btn">M-</button>
+            <button class="btn">8</button>
+            <button class="btn">5</button>
+            <button class="btn">2</button>
+            <button class="btn">0</button>
+            <button class="btn">MRC</button>
+            <button class="btn">9</button>
+            <button class="btn">6</button>
+            <button class="btn">3</button>
+            <button class="btn">.</button>
+            <button class="btn">X</button>
+            <button class="btn">/</button>
+            <button class="btn">-</button>
+            <button class="btn plus-btn">+</button>
+        </div>
     </div>
 </body>
 </html>
