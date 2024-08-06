@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     <style>
         .container{
             width:400px;
@@ -13,6 +12,12 @@
             border-radius: 12px;
             margin:10px auto;
             padding: 25px;
+        }
+        @font-face {
+            font-family: 'DS-Digital Normal';
+            font-style: normal;
+            font-weight: normal;
+            src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
         }
         .screen{
            display: block;
@@ -24,7 +29,7 @@
            background-color:  #A5A391;
            text-align: right;
            font-size: 25px;
-           font-family: 'Orbitron', sans-serif;
+           font-family: DS-Digital Normal;
         }
         .btn-container{
             margin-top:20px;
@@ -43,6 +48,7 @@
             width: 65px;
             font-weight: bold;
             font-size: 18px;
+            cursor: pointer;
         }
         .plus-btn{
             height: 80px;
