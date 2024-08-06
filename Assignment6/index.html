@@ -18,34 +18,86 @@
         }
         .parent-container2{
             display: flex;
+            flex-direction: row;
+        }
+        .parent-container2a{
+            display: flex;
+            flex-direction: column;
+        }
+        .parent-container2b{
+            display: flex;
             flex-direction: row-reverse;
+        }
+        .parent-container2c{
+            display: flex;
+            flex-direction: column-reverse;
         }
         .parent-container3{
             display: flex;
             flex-direction: row;
+            justify-content: start;
+        }
+        .parent-container3a{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+        .parent-container3b{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .parent-container3c{
+            display: flex;
+            flex-direction: row;
             justify-content: space-between;
+        }
+        .parent-container3d{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+         
+        }
+        .parent-container3e{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+         
         }
         .parent-container4{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            align-items: start;
+            height: 400px;
+        }
+        .parent-container4a{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: end;
+            height: 400px;
+        }
+        .parent-container4b{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
             align-items: center;
-            border: 2px solid black;
             height: 400px;
         }
         .parent-container5{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: space-between;
-            align-items: center;
-            border: 2px solid black;
-            height: 400px;
+            flex-wrap: nowrap;
         }
-        .parent-container6{
+        .parent-container5a{
             display: flex;
-            flex-wrap: wrap;
-
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap:wrap;
         }
+        
     </style>
 </head>
 <body>
@@ -84,7 +136,7 @@
     <!-- Parent Div -->
     <!-- display flex property end  -->
      <hr/>
-     <p>Flex Direction : row-reverse</p>
+     <p>Flex Direction : row</p>
      <!-- display flex property start -->
       <!-- Parent Div -->
      <div class="parent-container2">
@@ -115,142 +167,414 @@
          <!-- Child div -->
           
      </div>
-     <!-- Parent Div -->
-     <!-- display flex property end  -->
      <hr/>
-     <p>Justify-Content : Space between</p>
-     <!-- display flex property start -->
-      <!-- Parent Div -->
-     <div class="parent-container3">
-         <!-- Child div -->
-          <div class="child-container1">
-             1
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             2
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             3
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             4
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             5
-          </div>
-         <!-- Child div -->
-          
-     </div>
-     <!-- Parent Div -->
-     <!-- display flex property end  -->
-     <hr/>
-     <p>Align item: center[ For Controlling  [Y-axis]</p>
-     <!-- display flex property start -->
-      <!-- Parent Div -->
-     <div class="parent-container4">
-         <!-- Child div -->
-          <div class="child-container1">
-             1
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             2
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             3
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             4
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             5
-          </div>
-         <!-- Child div -->
-          
-     </div>
-     <!-- Parent Div -->
-     <!-- display flex property end  -->
-     <hr/>
-     <p>Align item: center[ For Controlling  [x-axis]</p>
-     <!-- display flex property start -->
-      <!-- Parent Div -->
-     <div class="parent-container5">
-         <!-- Child div -->
-          <div class="child-container1">
-             1
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             2
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             3
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             4
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             5
-          </div>
-         <!-- Child div -->
-     </div>
-     <!-- Parent Div -->
-     <!-- display flex property end  -->
-     <p>Flex Warp :  Warp</p>
-     <!-- display flex property start -->
-      <!-- Parent Div -->
-     <div class="parent-container6">
-         <!-- Child div -->
-          <div class="child-container1">
-             1
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             2
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             3
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             4
-          </div>
-         <!-- Child div -->
-           <!-- Child div -->
-           <div class="child-container1">
-             5
-          </div>
-         <!-- Child div -->
-          
-     </div>
-     <!-- Parent Div -->
-     <!-- display flex property end  -->
+     <p>Flex Direction : column</p>
+      <div class="parent-container2a">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
       <hr/>
+      <p>Flex Direction : row-reverse</p>
+      <div class="parent-container2b">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Flex Direction : col-reverse</p>
+      <div class="parent-container2c">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Justify Content : start</p>
+      <div class="parent-container3">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Justify Content : end</p>
+      <div class="parent-container3a">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Justify Content : space Around</p>
+      <div class="parent-container3b">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Justify Content : space between</p>
+      <div class="parent-container3c">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Justify Content : space evenly</p>
+      <div class="parent-container3d">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Justify Content : center</p>
+      <div class="parent-container3e">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Align Item : start</p>
+      <div class="parent-container4">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Align Item : end</p>
+      <div class="parent-container4a">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Align Item : center</p>
+      <div class="parent-container4b">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Warp : no warp</p>
+      <div class="parent-container5">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+      <p>Warp : warp</p>
+      <div class="parent-container5a">
+        <!-- Child div -->
+        <div class="child-container1">
+          1
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          2
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          3
+        </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          4
+       </div>
+        <!-- Child div -->
+        <!-- Child div -->
+        <div class="child-container1">
+          5
+        </div>
+        <!-- Child div -->  
+      </div>
+      <hr/>
+     <!-- Parent Div -->
+     <!-- display flex property end  -->
 </body>
 </html>
