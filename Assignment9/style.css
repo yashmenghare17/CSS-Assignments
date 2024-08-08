@@ -5,13 +5,14 @@ body{
 }
 .main-container{
     width: 100%;
+    padding-top:20px;
 }
 .main-heading{
     text-align: center;
     margin:0px;
     padding:10px 0px;
     color: #fffffe;
-    font-size: 40px;
+    font-size: 50px;
 }
 .text-align{
     text-align: center;
@@ -19,9 +20,24 @@ body{
 .heading-color{
     color: #fffffe;
 }
+.heading-size{
+    font-size: 20px;
+}
 .highlight-content{
     font-weight: bold;
     background-color: #e78fb3;
     padding: 5px;
-    font-size: 18px;
+    font-size: 22px;
+    border: 1px solid #e78fb3;
+    border-radius: 10px;
+    box-shadow: 5px 2px 8px 5px;
+}
+.btn{
+    display: block;
+    padding:10px 20px;
+    margin: 10px auto;
+    
+}
+.text-decoration{
+    text-decoration: none;
 }
