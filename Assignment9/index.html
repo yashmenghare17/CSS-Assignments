@@ -11,10 +11,9 @@
             flex-direction: row;
             justify-content:space-evenly;
             flex-wrap: wrap;
-            border: 1px solid black;
             width: 1000px;
             margin:40px auto;
-            height: 500px;
+            height: 350px;
 
         }
         .banner-section-1{
@@ -24,7 +23,34 @@
         .banner-section-2{
             width: 50%;
         }
-       
+        .btn-container{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .why-choose-container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 20px;
+            justify-content: space-evenly;
+            background-color:#ffc0ad;
+        }
+        .why-choose-container-card{
+            width: 230px;
+            border: 1px solid #140d0b;
+            background-color: #55423d;
+            box-shadow: 6px 6px 6px 1px  #140d0b;
+            border-radius: 5px;
+            height: 250px;
+        }
+        .why-choose-container-card-img{
+            margin:10px auto;
+            height: 120px;
+            display: block;
+           
+        }
     </style>
 </head>
 <body>
@@ -35,17 +61,46 @@
             <!-- banner container start -->
              <div class="banner-container">
                 <div class="banner-section-1">
-                    <img src="./img/banner_img.jpg" class="banner-img"  height="500px" width="100%"/>
+                    <img src="./img/banner_img.jpg" class="banner-img"  height="350px" width="100%" alt="banner-img"/>
                 </div>
                 <div class="banner-section-2">
                     <p class="heading-color text-align heading-size"><b>Explore our menus and order your favorite food</b></p>
                     <p class="heading-color text-align">We are provide best quality food with the best taste.<br/> 
                         We have a varity of food items in one menu. </p>
-                    <a href="#" class="text-decoration"><button class="btn">Expore Menus</button></a>
-                    <a href="#" class="text-decoration"><button class="btn">Contact us</button></a>
+                    <div class="btn-container">
+                        <a href="#" class="text-decoration"><button class="btn">Expore Menus</button></a>
+                        <a href="#" class="text-decoration"><button class="btn">Contact us</button></a>
+                    </div> 
                 </div>
              </div>
             <!-- banner container end -->
+            <!-- why choose us start -->
+             <div>
+                <p class="heading-color text-align heading-size"><b>Why Choose Us ?</b></p>
+                <div class="why-choose-container">
+                    <div class="why-choose-container-card">
+                        <img src="./img/shield.png" alt="shield-img"  class="why-choose-container-card-img" />
+                        <p class="heading-color text-align heading-size">Hygiene</p>
+                        <p class="heading-color text-align">We maintain highest level of hygiene</p>
+                    </div>
+                    <div class="why-choose-container-card">
+                        <img src="./img/delivery.png" alt="delivery-img"  class="why-choose-container-card-img" />
+                        <p class="heading-color text-align heading-size">Delivery</p>
+                        <p class="heading-color text-align">We provide the best delivery</p>
+                    </div>
+                    <div class="why-choose-container-card">
+                        <img src="./img/price-tag.png" alt="price-tag-img"  class="why-choose-container-card-img" />
+                        <p class="heading-color text-align heading-size">Price</p>
+                        <p class="heading-color text-align">We provide quality of food with best price</p>
+                    </div>
+                    <div class="why-choose-container-card">
+                        <img src="./img/tongue.png" alt="tongue-img"  class="why-choose-container-card-img" />
+                        <p class="heading-color text-align heading-size">Yummy</p>
+                        <p class="heading-color text-align">Taste the home made food</p>
+                    </div>
+                </div>
+             </div>
+            <!-- why choose us end  -->
         </div>
         
     <!-- main container end -->
