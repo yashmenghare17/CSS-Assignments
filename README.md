@@ -97,9 +97,6 @@ In this page , use various css propertires like background-color ,color and font
 
 ![Output 1 Page Screen Shot](./Assignment8/screenshots/output1.png)
 
-![Output 2 Page Screen Shot](./Assignment8/screenshots/output2.png)
-
-
 ## Information About Assignment 8 ##
 
 - **Summery Of Page** : This assignment content one page i.e index.html.We use two ways to implant css on wepages.i.e Inline and Internal  CSS respectivly. We use various properties of css like background-color ,color ,font-size,border,margin,padding and border-radius and flex box property etc to make style the given pages.We create a calculator using css properties. Page URL : [visit our page](https://dummycalculator.netlify.app/)
