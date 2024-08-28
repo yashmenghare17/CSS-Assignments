@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment 10</title>
+    <style>
+        .btn{
+            position: static;
+            left:20px;
+            right:20px;
+            top:20px;
+            bottom:20px;
+        }
+        .btn-relative{
+            position: relative;
+            left:50px;
+            right:50px;
+            top:10px;
+            bottom:50px;
+        }
+        .btn-fixed{
+           margin-top: 12px;
+           position: fixed;
+           left: 0;
+           
+        }
+        .btn-sticky{
+            position: sticky;
+            top:10px;
+        }
+        .container{
+            width:200px;
+            height: 200px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            padding: 5px 10px;
+            position: relative;
+        }
+        .profile-pic{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 50%;
+            position: absolute;
+            left: 80px;
+            top: -32px;
+        }
+        .profile-pic img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Positions</h1>
+        <div>
+            <p>Position are as follow :</p>
+            <ul>
+                <li>Fixed</li>
+                <li>Static</li>
+                <li>Relative</li>
+                <li>Sticky</li>
+                <li>Absolute</li>
+            </ul>
+        </div>
+        <h2>Fixed</h2>
+        <p>Element position will be relative to its viewport[visible space in browser]</p>
+        <button class="btn-fixed">Click Me</button>
+        <br/>
+        <h2>Static</h2>
+        <p>Default position value and there is no effect of top,bottom,left and right respectivly</p>
+        <p>Every element without position have default postion i.e static</p>
+        <button class="btn">Click Me</button>
+        <br/>
+        <h2>Relative</h2>
+        <p>Element position will be relative to its orignal position</p>
+        <button class="btn-relative">Click Me</button>
+        <br/>
+        
+        <h2>Sticky</h2>
+        <p>Element position will be relative if it is in viewport else it will act as fixed</p>
+        <div>
+            <button class="btn-sticky">Click Me</button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique laboriosam illo accusantium quibusdam dicta tenetur suscipit fuga modi quo porro deleniti ab veritatis labore iure, corporis consequuntur quasi ad?</p>
+
+        </div>
+        <br/>  
+        <h2>Absolute</h2>
+        <p style="margin-bottom: 35px;">Element position will be relative to its parent element</p>
+        <div class="container">
+            <div class="profile-pic"><img src="./img/dummy-image.jfif" height="50px" width="50px" /></div>
+            <div style="margin-top: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. At velit, maiores, culpa, quia eius autem ea porro unde voluptas deserunt quasi laudantium perspiciatis ullam sit quae eos voluptatum! Dicta, veritatis.</div>
+        </div>
+        <br/>
+    </div>
+</body>
+</html>
