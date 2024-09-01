@@ -92,6 +92,61 @@
         .contact-us{
             margin-left:10px;
         }
+        @media only screen and (max-width: 540px){
+            .main-heading{
+                font-size: 22px;
+            }
+            .heading-size{
+                font-size: 15px;
+            }
+            .highlight-content{
+                font-size: 16px;
+            }
+            .banner-container{
+                flex-direction: column;
+                margin:5px 0px;
+                width: 100%;
+                height: auto;
+            }
+            .banner-section-1{
+                width: 100%;
+            }
+            .banner-section-2{
+                width: 100%;
+                
+            }
+            .btn {
+                width: 120px;
+                font-size: 12px;
+            }
+            .why-choose-container-card{
+                width: 200px;
+                height: 190px;
+            }
+            .why-choose-container-card-img{
+                height: 80px;
+            }
+            .explore-menu-container-card{
+                width: 200px;
+                height: 290px;
+            }
+        }
+        @media only screen and (min-width: 550px) and (max-width:1200px) {
+            .why-choose-container{
+                justify-content: space-between;
+            }
+            .explore-menu-container{
+                justify-content: space-evenly;
+                padding: 10px 0px;
+                
+            }
+            .explore-menu-container-card {
+                width: 310px;
+                height: 313px;
+                padding: 5px;
+                margin-right: 0px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -100,20 +155,20 @@
             <h1 class="main-heading">Food Katta</h1>
             <p class="heading-color text-align heading-size">Life is dull without <span class="highlight-content">good food</span></p>
             <!-- banner container start -->
-             <div class="banner-container">
-                <div class="banner-section-1">
-                    <img src="./img/banner_img.jpg" class="banner-img"  height="350px" width="100%" alt="banner-img"/>
+                <div class="banner-container">
+                    <div class="banner-section-1">
+                        <img src="./img/banner_img.jpg" class="banner-img"  height="350px" width="100%" alt="banner-img"/>
+                    </div>
+                    <div class="banner-section-2">
+                        <p class="heading-color text-align heading-size"><b>Explore our menus and order your favorite food</b></p>
+                        <p class="heading-color text-align">We are provide best quality food with the best taste.<br/> 
+                            We have a varity of food items in one menu. </p>
+                        <div class="btn-container">
+                            <a href="#exploreMenus" class="text-decoration"><button class="btn">Expore Menus</button></a>
+                            <a href="#contact-us" class="text-decoration"><button class="btn">Contact us</button></a>
+                        </div> 
+                    </div>
                 </div>
-                <div class="banner-section-2">
-                    <p class="heading-color text-align heading-size"><b>Explore our menus and order your favorite food</b></p>
-                    <p class="heading-color text-align">We are provide best quality food with the best taste.<br/> 
-                        We have a varity of food items in one menu. </p>
-                    <div class="btn-container">
-                        <a href="#exploreMenus" class="text-decoration"><button class="btn">Expore Menus</button></a>
-                        <a href="#contact-us" class="text-decoration"><button class="btn">Contact us</button></a>
-                    </div> 
-                </div>
-             </div>
             <!-- banner container end -->
             <!-- why choose us start -->
              <div>
